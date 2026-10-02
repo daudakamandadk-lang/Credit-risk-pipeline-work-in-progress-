@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Jupyter / IDE / OS
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets / credentials
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+credentials*.json
+secrets*.json
+secrets*.yml
+secrets*.yaml
+
+# Local databases / outputs
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+*.log
+tmp/
+temp/
+artifacts/
+models/
+
+# Data should be generated/downloaded locally
+data/
