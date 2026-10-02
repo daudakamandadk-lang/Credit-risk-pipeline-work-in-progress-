@@ -41,5 +41,8 @@ temp/
 artifacts/
 models/
 
-# Data should be generated/downloaded locally
-data/
+# Data policy
+# Keep generated/private working data out of Git; allow documented public reference data.
+data/*
+!data/public/
+!data/public/**
