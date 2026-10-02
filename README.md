@@ -152,6 +152,19 @@ This means the pipeline can continue only under an explicitly defined warning po
 - Power BI/visual reporting planned for quality and analytical outputs
 - Git/GitHub for version control and documentation
 
+## Public reference data
+
+Two reproducible UCI credit-risk datasets are included for pipeline testing and later statistical/model benchmarking:
+
+- **Default of Credit Card Clients** — 30,000 observations, CC BY 4.0.
+- **South German Credit** — 1,000 observations, CC BY 4.0.
+
+Additional public/reference sources planned for calibration and scenario work include Bank of Uganda publications, Uganda National Panel Survey data, World Bank Global Findex, IMF macroeconomic indicators, HMDA and SBA lending data.
+
+See [data/public/README.md](data/public/README.md) and [metadata/data_sources.yml](metadata/data_sources.yml) for provenance and usage notes.
+
+These datasets are reference inputs; foreign or historical datasets are not treated as current Uganda ground truth.
+
 ## Safety and data policy
 
 This public repository is an independent portfolio project.
